@@ -55,7 +55,8 @@ header .navbar a {
       color: #666;
 }
 
-header .navbar a:hover, .navbar .active {
+header .navbar a:hover,
+.navbar .active {
       color: var(--pink);
 }
 
@@ -629,6 +630,11 @@ details[open] .faq-answer {
             display: block;
       }
 
+      header .navbar a:hover {
+            background-color: var(--pink);
+            color: #fff;
+      }
+
       .home .content h3 {
             font-size: 5rem;
       }
@@ -660,7 +666,7 @@ details[open] .faq-answer {
             font-size: 3rem;
       }
 
-        .home {
+      .home {
             min-height: 60vh;
       }
 }
